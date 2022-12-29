@@ -1,0 +1,241 @@
+@media(max-width:991px) {
+    .navbar .nav-link::before {
+        display: none !important;
+    }
+
+    .menu_bar {
+        overflow: hidden;
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 250px) and (max-width:575px) {
+    .hero_text h1 {
+        font-size: 2.5rem;
+        padding: 2rem 0 !important;
+    }
+
+    .slide_items {
+        padding-top: 10rem !important;
+    }
+
+    .hero_text h1 span {
+        font-size: 2.5rem !important;
+    }
+
+    .hero_text p {
+        padding: 0 2rem 2rem 2rem !important;
+    }
+
+    .service_items {
+        padding: 2rem 2rem 2rem 5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .service_text {
+        padding-left: 3rem !important;
+    }
+
+    .about_text {
+        padding-left: 0 !important;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .about_text p {
+        margin: auto;
+    }
+
+    .about_btn {
+        margin: auto;
+    }
+
+    .portfolio .mixit_box .col-lg-3 {
+        width: 50% !important;
+    }
+
+    .team .team_box {
+        --bs-gutter-x: 0rem !important;
+    }
+
+    .team_items {
+        margin-bottom: 2rem;
+    }
+
+    .team_items img {
+        padding: 1rem 2rem !important;
+    }
+
+    .team_items h4 {
+        padding: 0;
+    }
+
+    .contact {
+        padding-bottom: 0;
+    }
+
+    .contact_details {
+        text-align: center;
+    }
+
+    .contact_details h5 {
+        margin-top: 2rem;
+    }
+
+    .contact_items {
+        margin: auto !important;
+        padding: 1rem 0;
+        display: flex;
+    }
+
+    .contact_items i {
+        position: relative !important;
+    }
+    .follow_icon li {
+        margin: 0 0 1rem 1rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width:768px) {
+
+    .hero_text h1 {
+        font-size: 3.5rem;
+        padding: 2rem 0 !important;
+    }
+
+    .hero_text h1 span {
+        font-size: 3.5rem !important;
+    }
+
+    .hero_text p {
+        padding: 0 2rem 2rem 2rem !important;
+    }
+
+    .service_text h2 {
+        font-size: 2rem;
+    }
+
+    .about_text {
+        padding-left: 0 !important;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .about_text p {
+        margin: auto;
+    }
+
+    .about_btn {
+        margin: auto;
+    }
+
+    .portfolio .mixit_box .col-lg-3 {
+        width: 50% !important;
+    }
+
+    .team_box:last-child .col-md-6 {
+        margin: auto;
+        padding-top: 2rem;
+    }
+
+    .team_items img {
+        padding: 2rem 2.5rem 2.5rem 2.5rem !important;
+    }
+
+    .team_items h4 {
+        padding: 0;
+    }
+
+    .contact_details {
+        text-align: center;
+    }
+
+    .contact_details h5 {
+        margin-top: 2rem;
+    }
+
+    .contact_items {
+        margin: auto !important;
+        padding: 1rem 0;
+        display: flex;
+    }
+
+    .contact_items i {
+        position: relative !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width:991px) {
+    html {
+        font-size: 56.5% !important;
+    }
+
+    section {
+        padding: 6rem 0 !important;
+    }
+
+    .hero,
+    .service {
+        padding-top: 0 !important;
+    }
+
+    .about_text {
+        padding-left: 0 !important;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .about_text p {
+        margin: auto;
+    }
+
+    .about_btn {
+        margin: auto;
+    }
+
+    .portfolio .mixit_box .col-lg-3 {
+        width: 33% !important;
+    }
+
+    .portfolio .mixit_box .col-lg-3:last-child {
+        margin: auto;
+    }
+
+    .team {
+        padding-top: 0 !important;
+    }
+
+    .team_box:last-child .col-md-6 {
+        margin: auto;
+        padding-top: 2rem;
+    }
+
+    .contact_details {
+        text-align: center;
+    }
+
+    .contact_items {
+        margin: auto !important;
+        padding: 2rem 0;
+        display: flex;
+    }
+
+    .contact_items i {
+        position: relative !important;
+    }
+
+}
+
+@media (min-width: 991px)and (max-width:1199px) {
+    html {
+        font-size: 58.5% !important;
+    }
+
+    .contact_details {
+        padding: 0 0 0 5rem !important;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
